@@ -1,0 +1,36 @@
+# Banned vocabulary — shared by style_gate.py and writing-lint.sh.
+# One token per line. Word-boundary, case-insensitive. '#' starts a comment.
+# Structural rules (dashes, negative parallelism, canned openers, significance
+# markers) are coded identically in both tools; this file is vocabulary only.
+delve
+delves
+delving
+tapestry
+resonate
+resonates
+pivotal
+multifaceted
+underscore
+underscores
+commendably
+paradigm
+testament
+intricate
+transformative
+symphony
+mosaic
+cornerstone
+bedrock
+seamless
+seamlessly
+gamify
+gamified
+gamification
+synergy
+synergize
+synergistic
+next-gen
+nextgen
+revolutionary
+disruptive
+disruption
