@@ -1,0 +1,55 @@
+name: Sync public companion
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: sync-public
+  cancel-in-progress: true
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout private source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Build curated snapshot and push to public companion
+        env:
+          DEPLOY_KEY: ${{ secrets.PUBLIC_SYNC_KEY }}
+        run: |
+          set -euo pipefail
+          PRIVATE_FULL="${GITHUB_REPOSITORY}"
+          PUBLIC_FULL="${PRIVATE_FULL%-private}"
+          PUBLIC_SSH="git@github.com:${PUBLIC_FULL}.git"
+          ALLOWLIST=".github/public-allowlist.txt"
+          if [ ! -f "$ALLOWLIST" ]; then echo "No allowlist; nothing to sync."; exit 0; fi
+          mkdir -p ~/.ssh
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -t ed25519 github.com >> ~/.ssh/known_hosts 2>/dev/null
+          export GIT_SSH_COMMAND="ssh -i ~/.ssh/id_ed25519 -o IdentitiesOnly=yes"
+          STAGE="$(mktemp -d)"
+          while IFS= read -r raw || [ -n "$raw" ]; do
+            line="${raw%$'\r'}"
+            line="$(printf '%s' "$line" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+            [ -z "$line" ] && continue
+            case "$line" in \#*) continue ;; esac
+            if [ -e "$line" ]; then
+              mkdir -p "$STAGE/$(dirname "$line")"
+              cp -a "$line" "$STAGE/$(dirname "$line")/"
+            else
+              echo "WARN: allowlisted path not found: $line"
+            fi
+          done < "$ALLOWLIST"
+          cd "$STAGE"
+          git init -q -b main
+          git config user.name "public-sync-bot"
+          git config user.email "public-sync-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Nothing to publish."; exit 0; fi
+          git commit -q -m "Curated sync from ${PRIVATE_FULL} @ ${GITHUB_SHA}"
+          git push -f "$PUBLIC_SSH" main
+          echo "Pushed curated snapshot to ${PUBLIC_FULL}."

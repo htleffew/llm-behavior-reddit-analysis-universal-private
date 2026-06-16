@@ -1,0 +1,6 @@
+# Curated paths published to the public companion repo.
+# Anything NOT listed here stays private. Edit and push to change.
+README.md
+community_reported_llm_behavior_method.md
+corpus_audit_2026-05-17.md
+methods_library.md
