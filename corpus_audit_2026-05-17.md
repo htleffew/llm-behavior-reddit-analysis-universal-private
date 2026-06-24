@@ -8,7 +8,7 @@
 
 ## 1. LCR Corpus — `lcr_corpus.csv`
 
-**Path:** `C:\Users\drhea\repos\claude-lcr-analysis\data\lcr_corpus.csv`
+**Path:** `C:/Users/drhea/estate/projects/research/claude-lcr\data\lcr_corpus.csv`
 
 ### 1.1 Row count
 
@@ -75,7 +75,7 @@ The sample spans all four subreddits. Topically, posts range across product comp
 
 ## 2. Archive Intermediates — LCR per-subreddit snapshots
 
-**Path:** `C:\Users\drhea\repos\claude-sleep-analysis\archive\contaminated_frame\pm_html_nested_snapshot\data\`
+**Path:** `C:/Users/drhea/estate/projects/research/claude-sleep\archive\contaminated_frame\pm_html_nested_snapshot\data\`
 
 (The `scrape_intermediates/` folder under the LCR archive is empty. The preserved intermediates are in the sleep archive's pm_html_nested_snapshot.)
 
@@ -92,7 +92,7 @@ The per-subreddit intermediates contain more posts than the final `lcr_corpus.cs
 
 ## 3. Sleep Corpus — `posts_snapshot.csv`
 
-**Path:** `C:\Users\drhea\repos\claude-sleep-analysis\data\posts_snapshot.csv`
+**Path:** `C:/Users/drhea/estate/projects/research/claude-sleep\data\posts_snapshot.csv`
 
 ### 3.1 Row count
 
@@ -156,7 +156,7 @@ All entries in this file are Pass 1a wholesale sorts. No `search:*` (Pass 1b) or
 
 ## 4. Sleep Corpus — `praw_sleep_analysis_final.csv`
 
-**Path:** `C:\Users\drhea\repos\claude-sleep-analysis\data\praw_sleep_analysis_final.csv`
+**Path:** `C:/Users/drhea/estate/projects/research/claude-sleep\data\praw_sleep_analysis_final.csv`
 
 ### 4.1 Row count
 
@@ -291,8 +291,8 @@ No comment intermediates exist in either archive. The `archive/contaminated_fram
 
 ### A.2 Key scraper source files
 
-- `C:\Users\drhea\repos\claude-lcr-analysis\src\pullpush_lcr_scraper.py` — Arctic Shift API, wholesale time-window post pull per subreddit, with prefiltered comment fetch designed but not executed into the output file.
-- `C:\Users\drhea\repos\claude-sleep-analysis\src\reddit_scraper_v2.py` — PRAW, two-pass design: Pass 1a wholesale sorts + Pass 1b search-filtered, then prefiltered comment fetch. Comment fetch completed successfully.
+- `C:/Users/drhea/estate/projects/research/claude-lcr\src\pullpush_lcr_scraper.py` — Arctic Shift API, wholesale time-window post pull per subreddit, with prefiltered comment fetch designed but not executed into the output file.
+- `C:/Users/drhea/estate/projects/research/claude-sleep\src\reddit_scraper_v2.py` — PRAW, two-pass design: Pass 1a wholesale sorts + Pass 1b search-filtered, then prefiltered comment fetch. Comment fetch completed successfully.
 
 ---
 

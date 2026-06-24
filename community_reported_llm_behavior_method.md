@@ -1,7 +1,7 @@
 # A Procedural Method for the Phenomenological Investigation of Community-Reported LLM Behavior
 
 **Heather Leffew, PhD**
-**Obelus Institute**
+**HAIIQU**
 
 This document specifies a topic-agnostic procedural method for investigating any community-reported behavior of a deployed large language model using observational social-discourse data. It is the load-bearing methodological artifact for any project that adopts this approach. Each instantiation (a single phenomenon studied in a single corpus) executes this method end to end, in order, with the checkpoint discipline specified at each phase.
 

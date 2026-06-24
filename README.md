@@ -2,7 +2,7 @@
 
 A topic-agnostic procedural method and methods library for the **phenomenological investigation of community-reported behaviors of deployed large language models**, using observational social-discourse data, by a single-operator independent researcher.
 
-**Heather Leffew, PhD** &middot; [Obelus Institute](https://www.obelus.org/)
+**Heather Leffew, PhD** &middot; [HAIIQU](https://haiiqu.com/)
 
 ---
 
@@ -104,4 +104,4 @@ The active method's contribution is the bridge: a procedurally specified pipelin
 
 ## Contact
 
-[Obelus Institute](https://www.obelus.org/) &middot; heatherleffew@forevueinsights.com
+[HAIIQU](https://haiiqu.com/) &middot; heatherleffew@forevueinsights.com
