@@ -45,6 +45,12 @@ jobs:
             fi
           done < "$ALLOWLIST"
           cd "$STAGE"
+          # safety net: never publish blinding keys or LaTeX build junk, even when
+          # a broad allowlist entry happens to include them
+          find . -type f \( -iname '*DO_NOT_OPEN*' -o -name '*.aux' -o -name '*.log' \
+            -o -name '*.fls' -o -name '*.fdb_latexmk' -o -name '*.out' \
+            -o -name '*.synctex.gz' -o -name '*.bbl' -o -name '*.blg' \
+            -o -name '*.toc' -o -name '*.gexf' \) -delete
           git init -q -b main
           git config user.name "public-sync-bot"
           git config user.email "public-sync-bot@users.noreply.github.com"
