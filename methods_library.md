@@ -1141,6 +1141,35 @@ This is the audit trail that substitutes for inter-rater reliability under singl
 
 ---
 
+### 8.5 Single-file labeling dashboard (hand-coding instrument UI)
+
+**Use when.** A hand-coding step requires a human to apply a fixed, released coding schema across a case set (initial coding, blinded intra-coder recode, adjudication passes), and filling a raw CSV would be slow, error-prone, or would tempt the coder to open files that break blinding.
+
+**Do not use when.** The coding task is emergent annotation without a fixed schema (specify the decision rule first per §8.2), or the case set is so small (under roughly ten) that filling the CSV directly is faster than generating the tool.
+
+**What it produces.** A self-contained HTML labeling UI generated from the blinded instrument plus the raw evidence sources: one case per screen, evidence text beside click-button groups for each schema property (allowed values only), a notes field for genuine uncertainty, per-click autosave to browser localStorage, progress display, backup/restore JSON, and a CSV export in the exact instrument format for the downstream agreement and kappa analysis.
+
+**Single-operator feasibility.** The generator is a short stdlib Python script (plus pypdf when a PDF source is embedded); builds in seconds; zero server dependency (the HTML opens by double-click). Serving it through the estate hub adds login-gated phone access over the tailnet at no extra build cost.
+
+**Choose this over alternatives when.** Any multi-case fixed-schema human coding pass. Over spreadsheet coding because it removes source-pointer resolution friction and enforces allowed values; over agent-driven case presentation whenever the protocol is human-only, since the generator reads only the instrument and raw sources and no agent sits in the coding loop.
+
+**Anti-patterns.**
+- Embedding anything beyond source evidence. Prior codes, researcher notes, or the sealed key in the build inputs break blinding; the generator must read only the blinded instrument and the raw sources.
+- Reusing a localStorage key across tasks served from one origin. Two dashboards then overwrite each other's progress; set a unique TASK_ID per coding task.
+- Treating localStorage as the record. The exported CSV committed to the project repo is the record; the browser store is a working buffer.
+- Shipping unverified. Verify rendered (all cases resolve, selections persist across reload, export header matches the instrument byte for byte) and clear any test codes before handing the tool to the coder.
+
+**Provenance.** Reference implementation: claude-lcr `deliverables/hand_coding/recode_2026-06/build_recode_dashboard.py` plus `README_recode_protocol.md` (built 2026-07-05 for the section 6.1 blinded intra-coder recode). Serving and status: the everything-heather hub `CODING_DASHBOARDS` registry, `/api/research/coding/:slug` (auth-gated, tailnet reachable), with `/api/research/coding` reporting pending vs exported.
+
+**Notes for agentic execution.**
+1. Copy the reference generator into the new task's folder; point INSTRUMENT, CORPUS, and PDF at the task's files; set SCHEMA to the released coding schema verbatim; set a fresh TASK_ID.
+2. Build and verify rendered before handover; wipe test codes from localStorage.
+3. Register one line in the hub's `CODING_DASHBOARDS` (html path, doneWhen export artifact, research-tracker project and task ids); restart the hub; confirm 401 unauthenticated and 200 authed.
+4. Track status canonically as a research-tracker task: pending while coding, complete only after the downstream analysis is verified. The hub registry's pending/exported flag keys on the doneWhen file landing.
+5. For blinded protocols the agent never supplies, hints, or displays codes; the project's protocol README governs.
+
+---
+
 ## 9. Voice-segmentation techniques
 
 **When this section applies.** [method §C.4]. Separating model-attributed speech from user-attributed speech in unstructured community discourse.
@@ -1505,5 +1534,7 @@ Read this notebook as the closest available exemplar of the disposition the acti
 |---|---|---|
 | 2026-05-17 | Initial scaffold. Populated §0–§3, §10, §12 partial, schema-only for the rest. | Claude (Opus 4.7, 1M context) |
 | 2026-05-17 | First excavation pass. Four parallel Explore agents populated entries from four prior sources: dissertation (§2.4 gold-standard worked example, §5.3, §6.3, §8.1–§8.4, §11.3); content-moderation telemetry notebook (§1.1, §1.5, §5.1, §5.4, §6.2); TikTok Elections trio (§1.1, §1.2, §1.3, §1.5, §1.6, §7.1); original phenomenological notebook (§1.1, §1.2, §1.3, §1.5, §1.6 pre-contamination pattern, §1.7, §2.1, §2.2, §2.5, §3.1, §9.1, §9.2, §9.3, §9.4). §13 worked-example index expanded with specific line-range citations and the "predates contamination" note. §11.1, §11.2, §11.4 populated where applicable, marked TODO otherwise. §4.x networks remain TODO (not demonstrated in worked-example sources excavated). §5.2 NRC, §6.1 group inference, §7.2, §7.3 marked as available techniques with patterns; first-project application will populate. §12.7 BUTTER_Client adaptation notes still TODO. | Claude (Opus 4.7, 1M context) integrating four Explore-agent outputs |
+
+| 2026-07-05 | Added §8.5 single-file labeling dashboard (hand-coding instrument UI): generator pattern, blinding constraints, hub serving/status registry, agentic setup recipe. Reference implementation in claude-lcr recode_2026-06. | Claude (Fable 5, CCD) |
 
 `TODO[ongoing: as future agent sessions populate TODO blocks above, append entries here]`
