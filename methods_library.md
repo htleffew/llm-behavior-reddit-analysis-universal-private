@@ -1147,13 +1147,15 @@ Together these constitute the audit trail that substitutes for inter-rater relia
 
 **Do not use when.** The coding task is emergent annotation without a fixed schema (specify the decision rule first per §8.2), or the case set is so small (under roughly ten) that filling the CSV directly is faster than generating the tool.
 
-**What it produces.** A self-contained HTML labeling UI generated from the blinded instrument plus the raw evidence sources: one case per screen, evidence text beside click-button groups for each schema property (allowed values only), a notes field for genuine uncertainty, per-click autosave to browser localStorage, progress display, backup/restore JSON, and a CSV export in the exact instrument format for the downstream agreement and kappa analysis.
+**What it produces.** A self-contained HTML labeling UI generated from the blinded instrument plus the raw evidence sources: one case per screen, evidence text beside click-button groups for each schema property (allowed values only), per-click autosave to browser localStorage, progress display, backup/restore JSON, and a CSV export in the exact instrument format for the downstream agreement and kappa analysis. Three features are required, not optional: (1) an embedded codebook, the released per-property definitions, where-to-judge guidance, and per-value definitions, shown as a read-before-coding panel at the top and folded next to each property's buttons; (2) conditional drill-downs encoded as depends_on rules, so a dependent property folds away and auto-codes to its logical value when its trigger is absent, and only asks the coder when its trigger is present; (3) a per-property unclear flag with free text, composed into the instrument's notes column on export, so genuine uncertainty is recorded in the record itself while the coder still assigns the best-supported value (section 8.4 adjudication then works from those flags).
 
 **Single-operator feasibility.** The generator is a short stdlib Python script (plus pypdf when a PDF source is embedded); builds in seconds; zero server dependency (the HTML opens by double-click). Serving it through the estate hub adds login-gated phone access over the tailnet at no extra build cost.
 
 **Choose this over alternatives when.** Any multi-case fixed-schema human coding pass. Over spreadsheet coding because it removes source-pointer resolution friction and enforces allowed values; over agent-driven case presentation whenever the protocol is human-only, since the generator reads only the instrument and raw sources and no agent sits in the coding loop.
 
 **Anti-patterns.**
+- Shipping bare value buttons without the released definitions. The coder then applies remembered or improvised construct boundaries, which is exactly the drift an instrument exists to prevent.
+- Inventing or paraphrasing definitions from results sections. Transcribe them from the released schema source (the codebook or methods section); results-section case material can leak codes into a blinded task.
 - Embedding anything beyond source evidence. Prior codes, researcher notes, or the sealed key in the build inputs break blinding; the generator must read only the blinded instrument and the raw sources.
 - Reusing a localStorage key across tasks served from one origin. Two dashboards then overwrite each other's progress; set a unique TASK_ID per coding task.
 - Treating localStorage as the record. The exported CSV committed to the project repo is the record; the browser store is a working buffer.
@@ -1162,7 +1164,7 @@ Together these constitute the audit trail that substitutes for inter-rater relia
 **Provenance.** Reference implementation: claude-lcr `deliverables/hand_coding/recode_2026-06/build_recode_dashboard.py` plus `README_recode_protocol.md` (built 2026-07-05 for the section 6.1 blinded intra-coder recode). Serving and status: the everything-heather hub `CODING_DASHBOARDS` registry, `/api/research/coding/:slug` (auth-gated, tailnet reachable), with `/api/research/coding` reporting pending vs exported.
 
 **Notes for agentic execution.**
-1. Copy the reference generator into the new task's folder; point INSTRUMENT, CORPUS, and PDF at the task's files; set SCHEMA to the released coding schema verbatim; set a fresh TASK_ID.
+1. Copy the reference generator into the new task's folder; point INSTRUMENT, CORPUS, and PDF at the task's files; set SCHEMA to the released coding schema verbatim, including per-property definition, applies (where to judge from), value_defs, and any depends_on rules for logically dependent properties; set a fresh TASK_ID.
 2. Build and verify rendered before handover; wipe test codes from localStorage.
 3. Register one line in the hub's `CODING_DASHBOARDS` (html path, doneWhen export artifact, research-tracker project and task ids); restart the hub; confirm 401 unauthenticated and 200 authed.
 4. Track status canonically as a research-tracker task: pending while coding, complete only after the downstream analysis is verified. The hub registry's pending/exported flag keys on the doneWhen file landing.
