@@ -1,0 +1,22 @@
+{
+  ".claude/writing/active_profile.json": {
+    "mtime": 1781538858.8774183,
+    "ast_hash": "5bfe00b0cf2e06ba7dfd62a61f8c99ff",
+    "semantic_hash": "5bfe00b0cf2e06ba7dfd62a61f8c99ff"
+  },
+  ".claude/writing/tools/style_gate.py": {
+    "mtime": 1781538858.857294,
+    "ast_hash": "babf88f2b412bbc7f37a9c6ae5a94573",
+    "semantic_hash": "babf88f2b412bbc7f37a9c6ae5a94573"
+  },
+  ".claude/writing/tools/writing-lint.sh": {
+    "mtime": 1781538858.863415,
+    "ast_hash": "44204318c413e65a8c97aeb379d902ba",
+    "semantic_hash": "44204318c413e65a8c97aeb379d902ba"
+  },
+  "archive/contaminated_frame/src/universal_anomaly_engine.py": {
+    "mtime": 1779031229.7894232,
+    "ast_hash": "9256b934607069f5f2bd583795797358",
+    "semantic_hash": "9256b934607069f5f2bd583795797358"
+  }
+}
