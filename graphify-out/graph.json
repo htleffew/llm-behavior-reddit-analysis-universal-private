@@ -1,298 +1,21 @@
 {
   "nodes": [
     {
-      "id": "claude_writing_tools_style_gate",
-      "label": "style_gate.py",
-      "file_type": "code",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L1",
-      "_origin": "ast"
-    },
-    {
-      "id": "claude_writing_tools_style_gate_load_banned_terms",
-      "label": "load_banned_terms()",
-      "file_type": "code",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L53",
-      "_origin": "ast"
-    },
-    {
-      "id": "path",
-      "label": "Path",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast"
-    },
-    {
-      "id": "claude_writing_tools_style_gate_is_prose",
-      "label": "is_prose()",
-      "file_type": "code",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L75",
-      "_origin": "ast"
-    },
-    {
-      "id": "claude_writing_tools_style_gate_extract",
-      "label": "extract()",
-      "file_type": "code",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L87",
-      "_origin": "ast"
-    },
-    {
-      "id": "claude_writing_tools_style_gate_find_violations",
-      "label": "find_violations()",
-      "file_type": "code",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L99",
-      "_origin": "ast"
-    },
-    {
-      "id": "claude_writing_tools_style_gate_deny",
-      "label": "deny()",
-      "file_type": "code",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L116",
-      "_origin": "ast"
-    },
-    {
-      "id": "claude_writing_tools_style_gate_main",
-      "label": "main()",
-      "file_type": "code",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L124",
-      "_origin": "ast"
-    },
-    {
-      "id": "claude_writing_tools_writing_lint",
-      "label": "writing-lint.sh",
-      "file_type": "code",
-      "source_file": ".claude/writing/tools/writing-lint.sh",
-      "source_location": "L1",
-      "metadata": {
-        "language": "bash",
-        "kind": "file"
-      },
-      "_origin": "ast"
-    },
-    {
-      "id": "claude_writing_tools_writing_lint_sh__entry",
-      "label": "writing-lint.sh script",
-      "file_type": "code",
-      "source_file": ".claude/writing/tools/writing-lint.sh",
-      "source_location": "L1",
-      "metadata": {
-        "language": "bash",
-        "kind": "bash_entrypoint"
-      },
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine",
-      "label": "universal_anomaly_engine.py",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L1",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_trimodalsegmenter",
-      "label": "TriModalSegmenter",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L11",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_trimodalsegmenter_init",
-      "label": ".__init__()",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L13",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_trimodalsegmenter_segment",
-      "label": ".segment()",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L17",
-      "_origin": "ast"
-    },
-    {
-      "id": "dataframe",
-      "label": "DataFrame",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_inductiveexplorer",
-      "label": "InductiveExplorer",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L27",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_inductiveexplorer_init",
-      "label": ".__init__()",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L29",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_inductiveexplorer_extract_organic_clusters",
-      "label": ".extract_organic_clusters()",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L32",
-      "_origin": "ast"
-    },
-    {
-      "id": "any",
-      "label": "Any",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_contextualanchor",
-      "label": "ContextualAnchor",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L37",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_contextualanchor_init",
-      "label": ".__init__()",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L39",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_contextualanchor_validate_constructs",
-      "label": ".validate_constructs()",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L43",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_deductivesynthesizer",
-      "label": "DeductiveSynthesizer",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L50",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_deductivesynthesizer_init",
-      "label": ".__init__()",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L52",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_deductivesynthesizer_test_hypotheses",
-      "label": ".test_hypotheses()",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L55",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine",
-      "label": "UniversalAnomalyEngine",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L60",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine_init",
-      "label": ".__init__()",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L65",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine_ingest_prior",
-      "label": ".ingest_prior()",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L73",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine_run_pipeline",
-      "label": ".run_pipeline()",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L80",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_rationale_12",
-      "label": "Phase 2: Extracts exact quotes, paraphrases, user context, and user reactions.",
-      "file_type": "rationale",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L12",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_rationale_28",
-      "label": "Phase 3: MEHv2 Lemmatization and Unsupervised Clustering.",
-      "file_type": "rationale",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L28",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_rationale_38",
-      "label": "Phase 4: Psychometric mapping using ContentCoder, Contextualizer, and Archetypes",
-      "file_type": "rationale",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L38",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_rationale_51",
-      "label": "Phase 5: Hypothesis testing and telemetry correlation.",
-      "file_type": "rationale",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L51",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_rationale_61",
-      "label": "The Abductive (Bayesian-Updating) Mixed-Methods Pipeline Engine.     Coordinates",
-      "file_type": "rationale",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L61",
-      "_origin": "ast"
-    },
-    {
-      "id": "archive_contaminated_frame_src_universal_anomaly_engine_rationale_81",
-      "label": "Executes the full Abductive Loop",
-      "file_type": "rationale",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L81",
-      "_origin": "ast"
+      "id": "core_writing_standard",
+      "label": "CORE Writing Standard",
+      "file_type": "document",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\.claude\\writing\\CORE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
     },
     {
       "id": "heather_leffew",
       "label": "Dr. Heather Leffew",
       "file_type": "concept",
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -303,29 +26,7 @@
       "id": "readme",
       "label": "Universal Methodology README",
       "file_type": "document",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": "Heather Leffew",
-      "contributor": null
-    },
-    {
-      "id": "community_reported_llm_behavior_method",
-      "label": "A Procedural Method for Community-Reported LLM Behavior Research",
-      "file_type": "document",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": "Heather Leffew",
-      "contributor": null
-    },
-    {
-      "id": "methods_library",
-      "label": "Methods Library for Community-Reported LLM Behavior Research",
-      "file_type": "document",
-      "source_file": "methods_library.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\README.md",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -336,238 +37,18 @@
       "id": "agentic_orchestration_protocol",
       "label": "Agentic Orchestration Protocol",
       "file_type": "document",
-      "source_file": "agentic_orchestration_protocol.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\agentic_orchestration_protocol.md",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
       "author": "Heather Leffew",
-      "contributor": null
-    },
-    {
-      "id": "corpus_audit",
-      "label": "Corpus Audit 2026-05-17",
-      "file_type": "document",
-      "source_file": "corpus_audit_2026-05-17.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": "Execution Agent (Sonnet 4.6)",
-      "contributor": null
-    },
-    {
-      "id": "contaminated_frame_readme",
-      "label": "Contaminated Frame Archive README",
-      "file_type": "document",
-      "source_file": "archive/contaminated_frame/README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": "Heather Leffew",
-      "contributor": null
-    },
-    {
-      "id": "core_writing_standard",
-      "label": "CORE Writing Standard",
-      "file_type": "document",
-      "source_file": ".claude/writing/CORE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "research_writing_profile",
-      "label": "Research Writing Profile",
-      "file_type": "document",
-      "source_file": ".claude/writing/profiles/research.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "phase_0",
-      "label": "Phase 0 \u2013 Triggering Observation & Warrant",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "phase_1",
-      "label": "Phase 1 \u2013 Corpus Definition & Scrape",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "phase_2",
-      "label": "Phase 2 \u2013 Descriptive Engagement",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "phase_3",
-      "label": "Phase 3 \u2013 Unit-of-Analysis Determination",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "phase_4",
-      "label": "Phase 4 \u2013 Voice Segmentation and Tier Assignment",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "phase_5",
-      "label": "Phase 5 \u2013 Inductive Theme Discovery",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "phase_6",
-      "label": "Phase 6 \u2013 Lexicon Construction & Refinement",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "phase_7",
-      "label": "Phase 7 \u2013 Construct Formation",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "phase_8",
-      "label": "Phase 8 \u2013 Inferential & Quantitative Analysis",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "phase_9",
-      "label": "Phase 9 \u2013 Reflexive Synthesis & Writeup",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "phase_10",
-      "label": "Phase 10 \u2013 Cross-Corpus Comparison",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "bertopic",
-      "label": "BERTopic",
-      "file_type": "tool",
-      "source_file": "methods_library.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "lda",
-      "label": "Latent Dirichlet Allocation (LDA)",
-      "file_type": "tool",
-      "source_file": "methods_library.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "vader",
-      "label": "VADER Sentiment",
-      "file_type": "tool",
-      "source_file": "methods_library.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "nrc_emotion_lexicon",
-      "label": "NRC Emotion Lexicon",
-      "file_type": "tool",
-      "source_file": "methods_library.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "liwc",
-      "label": "LIWC psychometric dictionary",
-      "file_type": "concept",
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
       "contributor": null
     },
     {
       "id": "claude_opus_4_7",
       "label": "Claude Opus 4.7 (Orchestrator)",
       "file_type": "concept",
-      "source_file": "agentic_orchestration_protocol.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\agentic_orchestration_protocol.md",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -578,7 +59,7 @@
       "id": "claude_sonnet_4_6",
       "label": "Claude Sonnet 4.6 (Dispatched Agent)",
       "file_type": "concept",
-      "source_file": "agentic_orchestration_protocol.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\agentic_orchestration_protocol.md",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -589,7 +70,7 @@
       "id": "claude_haiku_4_5",
       "label": "Claude Haiku 4.5 (Clerical)",
       "file_type": "concept",
-      "source_file": "agentic_orchestration_protocol.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\agentic_orchestration_protocol.md",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -600,7 +81,7 @@
       "id": "human_researcher",
       "label": "Dr. Leffew (Human-in-the-Loop)",
       "file_type": "concept",
-      "source_file": "agentic_orchestration_protocol.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\agentic_orchestration_protocol.md",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -608,241 +89,21 @@
       "contributor": null
     },
     {
-      "id": "lcr_corpus",
-      "label": "LCR Corpus (Aug\u2013Dec 2025)",
-      "file_type": "concept",
-      "source_file": "corpus_audit_2026-05-17.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "sleep_corpus",
-      "label": "Sleep Corpus (Jan\u2013May 2026)",
-      "file_type": "concept",
-      "source_file": "corpus_audit_2026-05-17.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "dissertation",
-      "label": "Heather Leffew's Dissertation on mass murder linguistic typology",
-      "file_type": "paper",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "medium_gaslighting_article",
-      "label": "Gaslighting in the Name of AI Safety (Medium 2025)",
-      "file_type": "paper",
-      "source_file": "community_reported_llm_behavior_method.md",
+      "id": "contaminated_frame_readme",
+      "label": "Contaminated Frame Archive README",
+      "file_type": "document",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\README.md",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
       "author": "Heather Leffew",
-      "contributor": null
-    },
-    {
-      "id": "original_phenomenological_notebook",
-      "label": "Original Phenom. Notebook \u2013 Claude Gaslighting",
-      "file_type": "notebook",
-      "source_file": "methods_library.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": "Heather Leffew",
-      "contributor": null
-    },
-    {
-      "id": "precision_at_n",
-      "label": "Precision-at-N",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "sensitivity_ablation",
-      "label": "Sensitivity Ablation",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "tier_1_evidence",
-      "label": "Tier 1 \u2013 Segmentable Evidence",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "tier_2_evidence",
-      "label": "Tier 2 \u2013 Unitary Evidence",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "seed_encounter",
-      "label": "Seed Encounter",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "construct_imposition",
-      "label": "Construct Imposition (Anti-Pattern)",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "voice_segmentation_concept",
-      "label": "Voice Segmentation",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "reflexive_memo",
-      "label": "Reflexive Memo Trail",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "external_lexical_validation",
-      "label": "External Lexical Validation",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "substitution_table",
-      "label": "Substitution Table (Lab vs. This Method)",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "stop_word_smear",
-      "label": "Stop-Word Smear (Failure Mode)",
-      "file_type": "concept",
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "document_duplication_attractor",
-      "label": "Document-Duplication Attractor (Failure Mode)",
-      "file_type": "concept",
-      "source_file": "methods_library.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "contextualizer",
-      "label": "Contextualizer-keyword-incontext (Boyd-lab)",
-      "file_type": "tool",
-      "source_file": "methods_library.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "contentcoder",
-      "label": "ContentCoder-Py-LIWCish (Boyd-lab)",
-      "file_type": "tool",
-      "source_file": "methods_library.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "archetypes_boyd",
-      "label": "archetypes-boyd repository",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
       "contributor": null
     },
     {
       "id": "claude_lcr_analysis",
       "label": "claude-lcr-analysis repository",
       "file_type": "code",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "claude_sleep_analysis",
-      "label": "claude-sleep-analysis repository",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/ideation_conversation_export.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -853,7 +114,7 @@
       "id": "llm_behavior_reddit_analysis_universal",
       "label": "llm-behavior-reddit-analysis-universal repository",
       "file_type": "code",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -862,9 +123,9 @@
     },
     {
       "id": "juggernaut_content_moderation_telemetry",
-      "label": "Juggernaut Content Moderation Telemetry notebook",
+      "label": "Juggernaut_Content_Moderation_Telemetry.ipynb",
       "file_type": "code",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\repos\\Pm_html\\projects\\Juggernaut\\Juggernaut_Content_Moderation_Telemetry.ipynb",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -875,7 +136,7 @@
       "id": "content_moderation_analysis_and_reporting",
       "label": "Content Moderation Analysis and Reporting notebook (TikTok Elections)",
       "file_type": "code",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -884,9 +145,9 @@
     },
     {
       "id": "content_view_source_analysis",
-      "label": "Content View Source Analysis notebook (TikTok Elections)",
+      "label": "Content View Source Analysis.ipynb",
       "file_type": "code",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\repos\\Pm_html\\projects\\TikTok_Elections\\Content View Source Analysis.ipynb",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -897,7 +158,7 @@
       "id": "policy_misinfo_anthropology",
       "label": "Policy Misinfo Anthro notebook (TikTok Elections)",
       "file_type": "code",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -906,86 +167,9 @@
     },
     {
       "id": "claude_sonnet_discourse_analysis",
-      "label": "Claude Sonnet Discourse Analysis notebook (Gaslighting project)",
+      "label": "Claude_Sonnet_Discourse_Analysis.ipynb",
       "file_type": "code",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "pleonasty_llm_turn_analysis",
-      "label": "pleonasty-llm-turn-analysis repository",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "meh_v2",
-      "label": "MEHv2 repository",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "contextualizer_keyword_incontext",
-      "label": "Contextualizer-keyword-incontext repository",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "contentcoder_py_liwcish",
-      "label": "ContentCoder-Py-LIWCish repository",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "riotlite_dictbased",
-      "label": "RIOTLite-dictbased repository",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "mental_health_datasets",
-      "label": "mental-health-datasets repository",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "depression_datasets_nlp",
-      "label": "depression-datasets-nlp repository",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
+      "source_file": "C:\\Users\\drhea\\repos\\Pm_html\\projects\\Claude_Gaslighting\\Claude_Sonnet_Discourse_Analysis.ipynb",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -994,42 +178,9 @@
     },
     {
       "id": "butter_client",
-      "label": "BUTTER_Client repository",
+      "label": "BUTTER_Client",
       "file_type": "code",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "ryan_boyd",
-      "label": "Ryan L. Boyd",
-      "file_type": "concept",
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "abductive_mixed_methods_pipeline",
-      "label": "Abductive (Bayesian-Updating) Mixed-Methods Pipeline",
-      "file_type": "concept",
-      "source_file": "archive/contaminated_frame/universal_pipeline_master_plan.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "tri_modal_segmenter",
-      "label": "Tri-Modal Segmenter",
-      "file_type": "concept",
-      "source_file": "archive/contaminated_frame/universal_pipeline_master_plan.md",
+      "source_file": "C:\\Users\\drhea\\repos\\BUTTER_Client",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -1040,7 +191,7 @@
       "id": "llm_as_second_rater",
       "label": "LLM-as-a-Second-Rater methodology",
       "file_type": "concept",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -1051,18 +202,7 @@
       "id": "cohens_kappa",
       "label": "Cohen's Kappa Inter-Annotator Agreement",
       "file_type": "concept",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "sentence_transformers",
-      "label": "SentenceTransformers embedding model",
-      "file_type": "concept",
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -1073,7 +213,7 @@
       "id": "k_means",
       "label": "K-Means clustering",
       "file_type": "concept",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -1084,29 +224,7 @@
       "id": "shap",
       "label": "SHAP model explainer",
       "file_type": "concept",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "hdbscan",
-      "label": "HDBSCAN density-based clustering",
-      "file_type": "concept",
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "umap",
-      "label": "UMAP dimensionality reduction",
-      "file_type": "concept",
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -1115,42 +233,9 @@
     },
     {
       "id": "lcr_pipeline_master_plan",
-      "label": "LCR Pipeline Master Implementation Plan",
+      "label": "lcr_pipeline_master_plan.md",
       "file_type": "document",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "universal_pipeline_master_plan",
-      "label": "Universal LLM Behavioral Anomaly Research Engine Plan",
-      "file_type": "document",
-      "source_file": "archive/contaminated_frame/universal_pipeline_master_plan.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "sleep_pipeline_master_plan",
-      "label": "Sleep Analysis Pipeline Master Plan",
-      "file_type": "document",
-      "source_file": "archive/contaminated_frame/ideation_conversation_export.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "resources_and_approaches",
-      "label": "Researcher Profile & Methodological Toolkit",
-      "file_type": "document",
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
+      "source_file": "C:\\Users\\drhea\\repos\\claude-lcr-analysis\\lcr_pipeline_master_plan.md",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -1161,7 +246,7 @@
       "id": "generate_super_enhanced_lcr",
       "label": "generate_super_enhanced_lcr.py script",
       "file_type": "code",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -1172,7 +257,7 @@
       "id": "generate_nlp_enhanced_lcr",
       "label": "generate_nlp_enhanced_lcr.py script",
       "file_type": "code",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -1183,7 +268,7 @@
       "id": "abductive_engine_runner",
       "label": "abductive_engine_runner.py script",
       "file_type": "code",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -1194,7 +279,7 @@
       "id": "universal_anomaly_engine",
       "label": "universal_anomaly_engine.py script",
       "file_type": "code",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -1203,9 +288,9 @@
     },
     {
       "id": "claude_gaslighting_project",
-      "label": "Claude Gaslighting project folder",
-      "file_type": "code",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "label": "Claude Gaslighting Project",
+      "file_type": "concept",
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -1214,97 +299,31 @@
     },
     {
       "id": "medium_article",
-      "label": "Medium article by Dr. Heather Leffew",
+      "label": "Medium Article on Gaslighting",
       "file_type": "paper",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\repos\\Pm_html\\projects\\Claude_Gaslighting\\txt_Gaslighting in the Name of AI Safety_ How Anthropic\u2019s Claude Sonnet 4.5 Went From \u201cYou\u2019re Absolutely Right!\u201d to \u201cYou\u2019re Absolutely Crazy\u201d _ by Heather Leffew, PhD _ Medium.pdf",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
-      "author": null,
+      "author": "Heather Leffew",
       "contributor": null
     },
     {
-      "id": "phase_1_sensor",
-      "label": "Phase 1: The Sensor",
-      "file_type": "concept",
-      "source_file": "archive/contaminated_frame/universal_pipeline_master_plan.md",
+      "id": "dissertation",
+      "label": "Instrumental and Affective Mass Murder - Dissertation",
+      "file_type": "paper",
+      "source_file": "C:\\Users\\drhea\\repos\\Pm_html\\projects\\Instrumental_and_Affective_Mass_Murder\\Instrumental and Affective Mass Murder - Heather Leffew - Dissertation.txt",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "phase_2_tri_modal_segmenter",
-      "label": "Phase 2: Tri-Modal Segmenter",
-      "file_type": "concept",
-      "source_file": "archive/contaminated_frame/universal_pipeline_master_plan.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "phase_3_inductive_explorer",
-      "label": "Phase 3: Inductive Explorer",
-      "file_type": "concept",
-      "source_file": "archive/contaminated_frame/universal_pipeline_master_plan.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "phase_4_contextual_anchor",
-      "label": "Phase 4: Contextual Anchor",
-      "file_type": "concept",
-      "source_file": "archive/contaminated_frame/universal_pipeline_master_plan.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "phase_5_deductive_synthesizer",
-      "label": "Phase 5: Deductive Synthesizer",
-      "file_type": "concept",
-      "source_file": "archive/contaminated_frame/universal_pipeline_master_plan.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "dynamic_unit_of_measurement",
-      "label": "Dynamic Unit of Measurement",
-      "file_type": "concept",
-      "source_file": "archive/contaminated_frame/universal_pipeline_master_plan.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
+      "author": "Heather Leffew",
       "contributor": null
     },
     {
       "id": "random_forest",
       "label": "Random Forest Classifier",
       "file_type": "concept",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "networkx",
-      "label": "NetworkX graph analysis",
-      "file_type": "concept",
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -1315,7 +334,1008 @@
       "id": "flesch_kincaid",
       "label": "Flesch-Kincaid readability score",
       "file_type": "concept",
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claude_sleep_analysis",
+      "label": "claude-sleep-analysis repository",
+      "file_type": "code",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\ideation_conversation_export.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sleep_pipeline_master_plan",
+      "label": "sleep_pipeline_master_plan.md",
+      "file_type": "document",
+      "source_file": "C:\\Users\\drhea\\repos\\claude-sleep-analysis\\sleep_pipeline_master_plan.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "pleonasty_llm_turn_analysis",
+      "label": "pleonasty-llm-turn-analysis repository",
+      "file_type": "code",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "meh_v2",
+      "label": "MEHv2 repository",
+      "file_type": "code",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "contextualizer_keyword_incontext",
+      "label": "Contextualizer-keyword-incontext",
+      "file_type": "code",
+      "source_file": "C:\\Users\\drhea\\repos\\Contextualizer-keyword-incontext",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "contentcoder_py_liwcish",
+      "label": "ContentCoder-Py-LIWCish",
+      "file_type": "code",
+      "source_file": "C:\\Users\\drhea\\repos\\ContentCoder-Py-LIWCish",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "riotlite_dictbased",
+      "label": "RIOTLite-dictbased repository",
+      "file_type": "code",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "archetypes_boyd",
+      "label": "archetypes-boyd",
+      "file_type": "code",
+      "source_file": "C:\\Users\\drhea\\repos\\archetypes-boyd",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "mental_health_datasets",
+      "label": "mental-health-datasets repository",
+      "file_type": "code",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "depression_datasets_nlp",
+      "label": "depression-datasets-nlp repository",
+      "file_type": "code",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ryan_boyd",
+      "label": "Ryan L. Boyd",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sentence_transformers",
+      "label": "SentenceTransformers embedding model",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "liwc",
+      "label": "LIWC",
+      "file_type": "concept",
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hdbscan",
+      "label": "HDBSCAN density-based clustering",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "umap",
+      "label": "UMAP dimensionality reduction",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "resources_and_approaches",
+      "label": "Researcher Profile & Methodological Toolkit",
+      "file_type": "document",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "networkx",
+      "label": "NetworkX graph analysis",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "abductive_mixed_methods_pipeline",
+      "label": "Abductive (Bayesian-Updating) Mixed-Methods Pipeline",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\universal_pipeline_master_plan.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "tri_modal_segmenter",
+      "label": "Tri-Modal Segmenter",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\universal_pipeline_master_plan.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "universal_pipeline_master_plan",
+      "label": "Universal LLM Behavioral Anomaly Research Engine Plan",
+      "file_type": "document",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\universal_pipeline_master_plan.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phase_1_sensor",
+      "label": "Phase 1: The Sensor",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\universal_pipeline_master_plan.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phase_2_tri_modal_segmenter",
+      "label": "Phase 2: Tri-Modal Segmenter",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\universal_pipeline_master_plan.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phase_3_inductive_explorer",
+      "label": "Phase 3: Inductive Explorer",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\universal_pipeline_master_plan.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phase_4_contextual_anchor",
+      "label": "Phase 4: Contextual Anchor",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\universal_pipeline_master_plan.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phase_5_deductive_synthesizer",
+      "label": "Phase 5: Deductive Synthesizer",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\universal_pipeline_master_plan.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "dynamic_unit_of_measurement",
+      "label": "Dynamic Unit of Measurement",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\universal_pipeline_master_plan.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "community_reported_llm_behavior_method",
+      "label": "A Procedural Method for Community-Reported LLM Behavior Research",
+      "file_type": "document",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Heather Leffew",
+      "contributor": null
+    },
+    {
+      "id": "phase_0",
+      "label": "Phase 0 \u2013 Triggering Observation & Warrant",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phase_1",
+      "label": "Phase 1 \u2013 Corpus Definition & Scrape",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phase_2",
+      "label": "Phase 2 \u2013 Descriptive Engagement",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phase_3",
+      "label": "Phase 3 \u2013 Unit-of-Analysis Determination",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phase_4",
+      "label": "Phase 4 \u2013 Voice Segmentation and Tier Assignment",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phase_5",
+      "label": "Phase 5 \u2013 Inductive Theme Discovery",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phase_6",
+      "label": "Phase 6 \u2013 Lexicon Construction & Refinement",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phase_7",
+      "label": "Phase 7 \u2013 Construct Formation",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phase_8",
+      "label": "Phase 8 \u2013 Inferential & Quantitative Analysis",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phase_9",
+      "label": "Phase 9 \u2013 Reflexive Synthesis & Writeup",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "phase_10",
+      "label": "Phase 10 \u2013 Cross-Corpus Comparison",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "medium_gaslighting_article",
+      "label": "Gaslighting in the Name of AI Safety (Medium 2025)",
+      "file_type": "paper",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Heather Leffew",
+      "contributor": null
+    },
+    {
+      "id": "precision_at_n",
+      "label": "Precision-at-N",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sensitivity_ablation",
+      "label": "Sensitivity Ablation",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "tier_1_evidence",
+      "label": "Tier 1 \u2013 Segmentable Evidence",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "tier_2_evidence",
+      "label": "Tier 2 \u2013 Unitary Evidence",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "seed_encounter",
+      "label": "Seed Encounter",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "construct_imposition",
+      "label": "Construct Imposition (Anti-Pattern)",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "voice_segmentation_concept",
+      "label": "Voice Segmentation",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reflexive_memo",
+      "label": "Reflexive Memo Trail",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "external_lexical_validation",
+      "label": "External Lexical Validation",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "substitution_table",
+      "label": "Substitution Table (Lab vs. This Method)",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "stop_word_smear",
+      "label": "Stop-Word Smear (Failure Mode)",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "corpus_audit",
+      "label": "Corpus Audit 2026-05-17",
+      "file_type": "document",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\corpus_audit_2026-05-17.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Execution Agent (Sonnet 4.6)",
+      "contributor": null
+    },
+    {
+      "id": "lcr_corpus",
+      "label": "LCR Corpus (Aug\u2013Dec 2025)",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\corpus_audit_2026-05-17.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sleep_corpus",
+      "label": "Sleep Corpus (Jan\u2013May 2026)",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\corpus_audit_2026-05-17.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "methods_library",
+      "label": "Methods Library for Community-Reported LLM Behavior Research",
+      "file_type": "document",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Heather Leffew",
+      "contributor": null
+    },
+    {
+      "id": "bertopic",
+      "label": "BERTopic",
+      "file_type": "tool",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "lda",
+      "label": "Latent Dirichlet Allocation (LDA)",
+      "file_type": "tool",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vader",
+      "label": "VADER Sentiment",
+      "file_type": "tool",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "nrc_emotion_lexicon",
+      "label": "NRC Emotion Lexicon",
+      "file_type": "tool",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "original_phenomenological_notebook",
+      "label": "Original Phenom. Notebook \u2013 Claude Gaslighting",
+      "file_type": "notebook",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Heather Leffew",
+      "contributor": null
+    },
+    {
+      "id": "document_duplication_attractor",
+      "label": "Document-Duplication Attractor (Failure Mode)",
+      "file_type": "concept",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "contextualizer",
+      "label": "Contextualizer-keyword-incontext (Boyd-lab)",
+      "file_type": "tool",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "contentcoder",
+      "label": "ContentCoder-Py-LIWCish (Boyd-lab)",
+      "file_type": "tool",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "research_writing_profile",
+      "label": "Research Writing Profile",
+      "file_type": "document",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\.claude\\writing\\profiles\\research.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claude",
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "writing_standard",
+      "label": "Writing Standard",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "core_md",
+      "label": "CORE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "research_md",
+      "label": "research.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "pretooluse_style_gate",
+      "label": "PreToolUse Style Gate",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "precommit_lint",
+      "label": "Pre-commit Lint",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "banned_terms",
+      "label": "Banned Terms",
+      "file_type": "document",
+      "source_file": ".claude/writing/tools/banned_terms.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_allowlist",
+      "label": "Public Allowlist",
+      "file_type": "document",
+      "source_file": ".github/public-allowlist.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_md",
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": ".github/public-allowlist.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "community_reported_llm_behavior_method_md",
+      "label": "community_reported_llm_behavior_method.md",
+      "file_type": "document",
+      "source_file": ".github/public-allowlist.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "corpus_audit_2026_05_17_md",
+      "label": "corpus_audit_2026-05-17.md",
+      "file_type": "document",
+      "source_file": ".github/public-allowlist.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "methods_library_md",
+      "label": "methods_library.md",
+      "file_type": "document",
+      "source_file": ".github/public-allowlist.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sync_public_workflow",
+      "label": "Sync Public Workflow",
+      "file_type": "code",
+      "source_file": ".github/workflows/sync-public.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "public_companion_repo",
+      "label": "Public Companion Repo",
+      "file_type": "concept",
+      "source_file": ".github/workflows/sync-public.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "user_messages_only",
+      "label": "User Messages Only",
+      "file_type": "document",
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "lcr_pipeline_standalone",
+      "label": "lcr_pipeline_standalone.ipynb",
+      "file_type": "code",
+      "source_file": "C:\\Users\\drhea\\repos\\claude-lcr-analysis\\notebooks\\lcr_pipeline_standalone.ipynb",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "content_moderation_analysis_reporting",
+      "label": "Content Moderation Analysis and Reporting.ipynb",
+      "file_type": "code",
+      "source_file": "C:\\Users\\drhea\\repos\\Pm_html\\projects\\TikTok_Elections\\Content Moderation Analysis and Reporting.ipynb",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "policy_misinfo_anthro",
+      "label": "Policy_Misinfo_Anthro.ipynb",
+      "file_type": "code",
+      "source_file": "C:\\Users\\drhea\\repos\\Pm_html\\projects\\TikTok_Elections\\Policy_Misinfo_Anthro.ipynb",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sleep_pipeline_standalone_v2",
+      "label": "sleep_pipeline_standalone_v2.ipynb",
+      "file_type": "code",
+      "source_file": "C:\\Users\\drhea\\repos\\claude-sleep-analysis\\notebooks\\sleep_pipeline_standalone_v2.ipynb",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "mehv2",
+      "label": "MEHv2",
+      "file_type": "code",
+      "source_file": "C:\\Users\\drhea\\repos\\MEHv2",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "leffew_2026_care_without_consent",
+      "label": "leffew_2026_care-without-consent.md",
+      "file_type": "paper",
+      "source_file": "C:\\Users\\drhea\\repos\\claude-lcr-analysis\\leffew_2026_care-without-consent.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Heather Leffew",
+      "contributor": null
+    },
+    {
+      "id": "lcr_pipeline",
+      "label": "LCR Pipeline",
+      "file_type": "concept",
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "nlp_techniques",
+      "label": "NLP Techniques",
+      "file_type": "concept",
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "lemmatization",
+      "label": "Lemmatization",
+      "file_type": "concept",
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "shap_explainers",
+      "label": "SHAP Explainers",
+      "file_type": "concept",
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "llm_segmentation",
+      "label": "LLM Segmentation",
+      "file_type": "concept",
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "supervised_classification",
+      "label": "Supervised Classification",
+      "file_type": "concept",
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kmeans",
+      "label": "KMeans",
+      "file_type": "concept",
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
@@ -1325,633 +1345,12 @@
   ],
   "edges": [
     {
-      "source": "claude_writing_tools_style_gate",
-      "target": "json",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L19",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_style_gate",
-      "target": "os",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L20",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_style_gate",
-      "target": "re",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L21",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_style_gate",
-      "target": "sys",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L22",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_style_gate",
-      "target": "pathlib",
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L23",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_style_gate",
-      "target": "claude_writing_tools_style_gate_load_banned_terms",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L53",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_style_gate_load_banned_terms",
-      "target": "path",
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L53",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_style_gate",
-      "target": "claude_writing_tools_style_gate_is_prose",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L75",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_style_gate",
-      "target": "claude_writing_tools_style_gate_extract",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L87",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_style_gate",
-      "target": "claude_writing_tools_style_gate_find_violations",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L99",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_style_gate",
-      "target": "claude_writing_tools_style_gate_deny",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L116",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_style_gate",
-      "target": "claude_writing_tools_style_gate_main",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L124",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_style_gate_load_banned_terms",
-      "target": "path",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L57",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_style_gate_is_prose",
-      "target": "path",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L79",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_style_gate_main",
-      "target": "path",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L129",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_style_gate_main",
-      "target": "claude_writing_tools_style_gate_extract",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L130",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_style_gate_main",
-      "target": "claude_writing_tools_style_gate_is_prose",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L131",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_style_gate_main",
-      "target": "claude_writing_tools_style_gate_load_banned_terms",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L135",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_style_gate_main",
-      "target": "claude_writing_tools_style_gate_find_violations",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L136",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_style_gate_main",
-      "target": "claude_writing_tools_style_gate_deny",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/style_gate.py",
-      "source_location": "L138",
-      "weight": 1.0
-    },
-    {
-      "source": "claude_writing_tools_writing_lint",
-      "target": "claude_writing_tools_writing_lint_sh__entry",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/writing/tools/writing-lint.sh",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine",
-      "target": "pandas",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine",
-      "target": "numpy",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L2",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine",
-      "target": "logging",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L3",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine",
-      "target": "typing",
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L4",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_trimodalsegmenter",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L11",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_trimodalsegmenter",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_trimodalsegmenter_init",
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L13",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_trimodalsegmenter",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_trimodalsegmenter_segment",
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L17",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_trimodalsegmenter_segment",
-      "target": "dataframe",
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L17",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_inductiveexplorer",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L27",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_inductiveexplorer",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_inductiveexplorer_init",
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L29",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_inductiveexplorer",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_inductiveexplorer_extract_organic_clusters",
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L32",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_inductiveexplorer_extract_organic_clusters",
-      "target": "dataframe",
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L32",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_inductiveexplorer_extract_organic_clusters",
-      "target": "any",
-      "relation": "references",
-      "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L32",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_contextualanchor",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L37",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_contextualanchor",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_contextualanchor_init",
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L39",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_contextualanchor",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_contextualanchor_validate_constructs",
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L43",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_contextualanchor_validate_constructs",
-      "target": "any",
-      "relation": "references",
-      "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L43",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_contextualanchor_validate_constructs",
-      "target": "dataframe",
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L43",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_deductivesynthesizer",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L50",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_deductivesynthesizer",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_deductivesynthesizer_init",
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L52",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_deductivesynthesizer",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_deductivesynthesizer_test_hypotheses",
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L55",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_deductivesynthesizer_test_hypotheses",
-      "target": "dataframe",
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L55",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_deductivesynthesizer_test_hypotheses",
-      "target": "any",
-      "relation": "references",
-      "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L55",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L60",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine_init",
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L65",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine_ingest_prior",
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L73",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine_ingest_prior",
-      "target": "dataframe",
-      "relation": "references",
-      "context": "return_type",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L73",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine_run_pipeline",
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L80",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine_init",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_trimodalsegmenter",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L67",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine_init",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_inductiveexplorer",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L68",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine_init",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_contextualanchor",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L69",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine_init",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_deductivesynthesizer",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L70",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine_ingest_prior",
-      "target": "dataframe",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L77",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine_run_pipeline",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine_ingest_prior",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L85",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine_run_pipeline",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_trimodalsegmenter_segment",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L88",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine_run_pipeline",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_inductiveexplorer_extract_organic_clusters",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L91",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine_run_pipeline",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_contextualanchor_validate_constructs",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L94",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine_run_pipeline",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_deductivesynthesizer_test_hypotheses",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L97",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_rationale_12",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_trimodalsegmenter",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L12",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_rationale_28",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_inductiveexplorer",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L28",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_rationale_38",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_contextualanchor",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L38",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_rationale_51",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_deductivesynthesizer",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L51",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_rationale_61",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L61",
-      "weight": 1.0
-    },
-    {
-      "source": "archive_contaminated_frame_src_universal_anomaly_engine_rationale_81",
-      "target": "archive_contaminated_frame_src_universal_anomaly_engine_universalanomalyengine_run_pipeline",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "archive/contaminated_frame/src/universal_anomaly_engine.py",
-      "source_location": "L81",
-      "weight": 1.0
-    },
-    {
       "source": "agentic_orchestration_protocol",
       "target": "community_reported_llm_behavior_method",
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "agentic_orchestration_protocol.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\agentic_orchestration_protocol.md",
       "source_location": null,
       "weight": 1.0
     },
@@ -1961,427 +1360,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "agentic_orchestration_protocol.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "community_reported_llm_behavior_method",
-      "target": "methods_library",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "methods_library",
-      "target": "community_reported_llm_behavior_method",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "methods_library.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "contaminated_frame_readme",
-      "target": "community_reported_llm_behavior_method",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "corpus_audit",
-      "target": "lcr_corpus",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "corpus_audit_2026-05-17.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "corpus_audit",
-      "target": "sleep_corpus",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "corpus_audit_2026-05-17.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "lcr_corpus",
-      "target": "sleep_corpus",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "corpus_audit_2026-05-17.md",
-      "source_location": null,
-      "weight": 0.8
-    },
-    {
-      "source": "community_reported_llm_behavior_method",
-      "target": "phase_0",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "community_reported_llm_behavior_method",
-      "target": "phase_1",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "community_reported_llm_behavior_method",
-      "target": "phase_2",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "community_reported_llm_behavior_method",
-      "target": "phase_3",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "community_reported_llm_behavior_method",
-      "target": "phase_4",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "community_reported_llm_behavior_method",
-      "target": "phase_5",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "community_reported_llm_behavior_method",
-      "target": "phase_6",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "community_reported_llm_behavior_method",
-      "target": "phase_7",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "community_reported_llm_behavior_method",
-      "target": "phase_8",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "community_reported_llm_behavior_method",
-      "target": "phase_9",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "community_reported_llm_behavior_method",
-      "target": "phase_10",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "phase_0",
-      "target": "seed_encounter",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "phase_2",
-      "target": "sensitivity_ablation",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "phase_4",
-      "target": "voice_segmentation_concept",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "phase_4",
-      "target": "tier_1_evidence",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "phase_4",
-      "target": "tier_2_evidence",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "phase_5",
-      "target": "bertopic",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "phase_5",
-      "target": "lda",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "methods_library",
-      "target": "bertopic",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "methods_library.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "methods_library",
-      "target": "lda",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "methods_library.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "methods_library",
-      "target": "vader",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "methods_library.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "methods_library",
-      "target": "nrc_emotion_lexicon",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "methods_library.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "methods_library",
-      "target": "liwc",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "methods_library.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "methods_library",
-      "target": "contextualizer",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "methods_library.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "methods_library",
-      "target": "contentcoder",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "methods_library.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "methods_library",
-      "target": "archetypes_boyd",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "methods_library.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "phase_6",
-      "target": "precision_at_n",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "phase_6",
-      "target": "external_lexical_validation",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "phase_7",
-      "target": "construct_imposition",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "phase_9",
-      "target": "reflexive_memo",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "methods_library",
-      "target": "document_duplication_attractor",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "methods_library.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "community_reported_llm_behavior_method",
-      "target": "sensitivity_ablation",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "community_reported_llm_behavior_method",
-      "target": "substitution_table",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "community_reported_llm_behavior_method",
-      "target": "dissertation",
-      "relation": "cites",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "community_reported_llm_behavior_method",
-      "target": "medium_gaslighting_article",
-      "relation": "cites",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "methods_library",
-      "target": "original_phenomenological_notebook",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "methods_library.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\agentic_orchestration_protocol.md",
       "source_location": null,
       "weight": 1.0
     },
@@ -2391,7 +1370,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "agentic_orchestration_protocol.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\agentic_orchestration_protocol.md",
       "source_location": null,
       "weight": 1.0
     },
@@ -2401,7 +1380,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "agentic_orchestration_protocol.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\agentic_orchestration_protocol.md",
       "source_location": null,
       "weight": 1.0
     },
@@ -2411,7 +1390,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "agentic_orchestration_protocol.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\agentic_orchestration_protocol.md",
       "source_location": null,
       "weight": 1.0
     },
@@ -2421,27 +1400,17 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "agentic_orchestration_protocol.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\agentic_orchestration_protocol.md",
       "source_location": null,
       "weight": 1.0
     },
     {
-      "source": "research_writing_profile",
-      "target": "core_writing_standard",
+      "source": "contaminated_frame_readme",
+      "target": "community_reported_llm_behavior_method",
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": ".claude/writing/profiles/research.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "community_reported_llm_behavior_method",
-      "target": "stop_word_smear",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "community_reported_llm_behavior_method.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\README.md",
       "source_location": null,
       "weight": 1.0
     },
@@ -2451,7 +1420,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/README.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\README.md",
       "source_location": null,
       "weight": 1.0
     },
@@ -2461,19 +1430,9 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/README.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\README.md",
       "source_location": null,
       "weight": 1.0
-    },
-    {
-      "source": "medium_gaslighting_article",
-      "target": "original_phenomenological_notebook",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.7,
-      "source_file": "methods_library.md",
-      "source_location": null,
-      "weight": 0.8
     },
     {
       "source": "lcr_pipeline_master_plan",
@@ -2481,7 +1440,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2491,7 +1450,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2501,7 +1460,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2511,7 +1470,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2521,7 +1480,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2531,7 +1490,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2541,7 +1500,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2551,7 +1510,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2561,7 +1520,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2571,7 +1530,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2581,7 +1540,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2591,7 +1550,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2601,157 +1560,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "universal_pipeline_master_plan",
-      "target": "abductive_mixed_methods_pipeline",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/universal_pipeline_master_plan.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "universal_pipeline_master_plan",
-      "target": "phase_1_sensor",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/universal_pipeline_master_plan.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "universal_pipeline_master_plan",
-      "target": "phase_2_tri_modal_segmenter",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/universal_pipeline_master_plan.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "universal_pipeline_master_plan",
-      "target": "phase_3_inductive_explorer",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/universal_pipeline_master_plan.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "universal_pipeline_master_plan",
-      "target": "phase_4_contextual_anchor",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/universal_pipeline_master_plan.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "universal_pipeline_master_plan",
-      "target": "phase_5_deductive_synthesizer",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/universal_pipeline_master_plan.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "resources_and_approaches",
-      "target": "pleonasty_llm_turn_analysis",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "resources_and_approaches",
-      "target": "meh_v2",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "resources_and_approaches",
-      "target": "contextualizer_keyword_incontext",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "resources_and_approaches",
-      "target": "contentcoder_py_liwcish",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "resources_and_approaches",
-      "target": "riotlite_dictbased",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "resources_and_approaches",
-      "target": "archetypes_boyd",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "resources_and_approaches",
-      "target": "mental_health_datasets",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "resources_and_approaches",
-      "target": "depression_datasets_nlp",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "heather_leffew",
-      "target": "claude_gaslighting_project",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2761,7 +1570,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2771,7 +1580,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2781,7 +1590,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2791,7 +1600,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2801,7 +1610,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2811,7 +1620,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2821,7 +1630,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2831,17 +1640,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "abductive_mixed_methods_pipeline",
-      "target": "tri_modal_segmenter",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/universal_pipeline_master_plan.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2851,7 +1650,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2861,17 +1660,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "abductive_mixed_methods_pipeline",
-      "target": "sentence_transformers",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/universal_pipeline_master_plan.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2881,7 +1670,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2891,27 +1680,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "abductive_mixed_methods_pipeline",
-      "target": "liwc",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "abductive_mixed_methods_pipeline",
-      "target": "dynamic_unit_of_measurement",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/universal_pipeline_master_plan.md",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2921,7 +1690,7 @@
       "relation": "implements",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2931,7 +1700,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2941,7 +1710,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2951,7 +1720,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2961,7 +1730,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
       "source_location": null,
       "weight": 1.0
     },
@@ -2971,7 +1740,1087 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt",
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "resources_and_approaches",
+      "target": "pleonasty_llm_turn_analysis",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "resources_and_approaches",
+      "target": "meh_v2",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "resources_and_approaches",
+      "target": "contextualizer_keyword_incontext",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "resources_and_approaches",
+      "target": "contentcoder_py_liwcish",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "resources_and_approaches",
+      "target": "riotlite_dictbased",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "resources_and_approaches",
+      "target": "archetypes_boyd",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "resources_and_approaches",
+      "target": "mental_health_datasets",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "resources_and_approaches",
+      "target": "depression_datasets_nlp",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "heather_leffew",
+      "target": "claude_gaslighting_project",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "abductive_mixed_methods_pipeline",
+      "target": "liwc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "universal_pipeline_master_plan",
+      "target": "abductive_mixed_methods_pipeline",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\universal_pipeline_master_plan.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "universal_pipeline_master_plan",
+      "target": "phase_1_sensor",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\universal_pipeline_master_plan.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "universal_pipeline_master_plan",
+      "target": "phase_2_tri_modal_segmenter",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\universal_pipeline_master_plan.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "universal_pipeline_master_plan",
+      "target": "phase_3_inductive_explorer",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\universal_pipeline_master_plan.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "universal_pipeline_master_plan",
+      "target": "phase_4_contextual_anchor",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\universal_pipeline_master_plan.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "universal_pipeline_master_plan",
+      "target": "phase_5_deductive_synthesizer",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\universal_pipeline_master_plan.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "abductive_mixed_methods_pipeline",
+      "target": "tri_modal_segmenter",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\universal_pipeline_master_plan.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "abductive_mixed_methods_pipeline",
+      "target": "sentence_transformers",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\universal_pipeline_master_plan.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "abductive_mixed_methods_pipeline",
+      "target": "dynamic_unit_of_measurement",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\universal_pipeline_master_plan.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "community_reported_llm_behavior_method",
+      "target": "methods_library",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "community_reported_llm_behavior_method",
+      "target": "phase_0",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "community_reported_llm_behavior_method",
+      "target": "phase_1",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "community_reported_llm_behavior_method",
+      "target": "phase_2",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "community_reported_llm_behavior_method",
+      "target": "phase_3",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "community_reported_llm_behavior_method",
+      "target": "phase_4",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "community_reported_llm_behavior_method",
+      "target": "phase_5",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "community_reported_llm_behavior_method",
+      "target": "phase_6",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "community_reported_llm_behavior_method",
+      "target": "phase_7",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "community_reported_llm_behavior_method",
+      "target": "phase_8",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "community_reported_llm_behavior_method",
+      "target": "phase_9",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "community_reported_llm_behavior_method",
+      "target": "phase_10",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "phase_0",
+      "target": "seed_encounter",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "phase_2",
+      "target": "sensitivity_ablation",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "phase_4",
+      "target": "voice_segmentation_concept",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "phase_4",
+      "target": "tier_1_evidence",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "phase_4",
+      "target": "tier_2_evidence",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "phase_5",
+      "target": "bertopic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "phase_5",
+      "target": "lda",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "phase_6",
+      "target": "precision_at_n",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "phase_6",
+      "target": "external_lexical_validation",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "phase_7",
+      "target": "construct_imposition",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "phase_9",
+      "target": "reflexive_memo",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "community_reported_llm_behavior_method",
+      "target": "sensitivity_ablation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "community_reported_llm_behavior_method",
+      "target": "substitution_table",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "community_reported_llm_behavior_method",
+      "target": "dissertation",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "community_reported_llm_behavior_method",
+      "target": "medium_gaslighting_article",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "community_reported_llm_behavior_method",
+      "target": "stop_word_smear",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\community_reported_llm_behavior_method.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "corpus_audit",
+      "target": "lcr_corpus",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\corpus_audit_2026-05-17.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "corpus_audit",
+      "target": "sleep_corpus",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\corpus_audit_2026-05-17.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "lcr_corpus",
+      "target": "sleep_corpus",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\corpus_audit_2026-05-17.md",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "methods_library",
+      "target": "community_reported_llm_behavior_method",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "methods_library",
+      "target": "bertopic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "methods_library",
+      "target": "lda",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "methods_library",
+      "target": "vader",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "methods_library",
+      "target": "nrc_emotion_lexicon",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "methods_library",
+      "target": "liwc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "methods_library",
+      "target": "contextualizer",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "methods_library",
+      "target": "contentcoder",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "methods_library",
+      "target": "archetypes_boyd",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "methods_library",
+      "target": "document_duplication_attractor",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "methods_library",
+      "target": "original_phenomenological_notebook",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "medium_gaslighting_article",
+      "target": "original_phenomenological_notebook",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "research_writing_profile",
+      "target": "core_writing_standard",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\.claude\\writing\\profiles\\research.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "claude",
+      "target": "writing_standard",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "writing_standard",
+      "target": "core_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "writing_standard",
+      "target": "research_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "pretooluse_style_gate",
+      "target": "writing_standard",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "precommit_lint",
+      "target": "writing_standard",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "writing_standard",
+      "target": "banned_terms",
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_allowlist",
+      "target": "readme_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/public-allowlist.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_allowlist",
+      "target": "community_reported_llm_behavior_method_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/public-allowlist.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_allowlist",
+      "target": "corpus_audit_2026_05_17_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/public-allowlist.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "public_allowlist",
+      "target": "methods_library_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/public-allowlist.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sync_public_workflow",
+      "target": "public_allowlist",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/workflows/sync-public.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sync_public_workflow",
+      "target": "public_companion_repo",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/workflows/sync-public.yml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "lcr_pipeline_standalone",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "juggernaut_content_moderation_telemetry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "content_moderation_analysis_reporting",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "content_view_source_analysis",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "policy_misinfo_anthro",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "claude_sonnet_discourse_analysis",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "sleep_pipeline_standalone_v2",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "archetypes_boyd",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "butter_client",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "contentcoder_py_liwcish",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "contextualizer_keyword_incontext",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "mehv2",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "dissertation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "leffew_2026_care_without_consent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "lcr_pipeline_master_plan",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "sleep_pipeline_master_plan",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "medium_article",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "lcr_pipeline",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "lemmatization",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "shap_explainers",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "llm_segmentation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "supervised_classification",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "kmeans",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "liwc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "user_messages_only",
+      "target": "claude_gaslighting_project",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "lcr_pipeline",
+      "target": "claude_gaslighting_project",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "lcr_pipeline_standalone",
+      "target": "juggernaut_content_moderation_telemetry",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "lcr_pipeline_standalone",
+      "target": "content_moderation_analysis_reporting",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "lcr_pipeline_standalone",
+      "target": "content_view_source_analysis",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "lcr_pipeline_standalone",
+      "target": "policy_misinfo_anthro",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "lcr_pipeline_standalone",
+      "target": "claude_sonnet_discourse_analysis",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "lcr_pipeline_standalone",
+      "target": "sleep_pipeline_standalone_v2",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "lcr_pipeline_master_plan",
+      "target": "sleep_pipeline_master_plan",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt",
       "source_location": null,
       "weight": 1.0
     }
@@ -2989,7 +2838,7 @@
       "relation": "form",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "README.md"
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\README.md"
     },
     {
       "id": "contaminated_pipeline_anti_patterns",
@@ -3002,20 +2851,22 @@
       "relation": "form",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/README.md"
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\README.md"
     },
     {
-      "id": "boyd_lab_tool_catalog",
-      "label": "Boyd-Lab External Toolset Referenced in Methods Library",
+      "id": "sample_notebooks_inform_lcr",
+      "label": "Sample Notebooks Used to Enhance LCR Pipeline",
       "nodes": [
-        "contextualizer",
-        "contentcoder",
-        "archetypes_boyd"
+        "juggernaut_content_moderation_telemetry",
+        "content_moderation_analysis_and_reporting",
+        "content_view_source_analysis",
+        "policy_misinfo_anthropology",
+        "claude_sonnet_discourse_analysis"
       ],
-      "relation": "form",
+      "relation": "inform",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "methods_library.md"
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\conversation_transcript.txt"
     },
     {
       "id": "external_nlp_toolkit",
@@ -3034,22 +2885,7 @@
       "relation": "form_toolkit",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/resources_and_approaches.md"
-    },
-    {
-      "id": "sample_notebooks_inform_lcr",
-      "label": "Sample Notebooks Used to Enhance LCR Pipeline",
-      "nodes": [
-        "juggernaut_content_moderation_telemetry",
-        "content_moderation_analysis_and_reporting",
-        "content_view_source_analysis",
-        "policy_misinfo_anthropology",
-        "claude_sonnet_discourse_analysis"
-      ],
-      "relation": "inform",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/conversation_transcript.txt"
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\resources_and_approaches.md"
     },
     {
       "id": "abductive_pipeline_phases",
@@ -3064,9 +2900,69 @@
       "relation": "form",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "archive/contaminated_frame/universal_pipeline_master_plan.md"
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\archive\\contaminated_frame\\universal_pipeline_master_plan.md"
+    },
+    {
+      "id": "boyd_lab_tool_catalog",
+      "label": "Boyd-Lab External Toolset Referenced in Methods Library",
+      "nodes": [
+        "contextualizer",
+        "contentcoder",
+        "archetypes_boyd"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\Users\\drhea\\estate\\projects\\research\\llm-behavior\\methods_library.md"
+    },
+    {
+      "id": "nlp_methodology",
+      "label": "NLP Methodology",
+      "nodes": [
+        "lemmatization",
+        "shap_explainers",
+        "llm_segmentation",
+        "supervised_classification",
+        "kmeans"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt"
+    },
+    {
+      "id": "external_repos",
+      "label": "External Repos for Linguistic Analysis",
+      "nodes": [
+        "archetypes_boyd",
+        "butter_client",
+        "contentcoder_py_liwcish",
+        "contextualizer_keyword_incontext",
+        "mehv2"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt"
+    },
+    {
+      "id": "referenced_notebooks",
+      "label": "Referenced Notebooks for Pipeline Enhancement",
+      "nodes": [
+        "lcr_pipeline_standalone",
+        "juggernaut_content_moderation_telemetry",
+        "content_moderation_analysis_reporting",
+        "content_view_source_analysis",
+        "policy_misinfo_anthro",
+        "claude_sonnet_discourse_analysis",
+        "sleep_pipeline_standalone_v2"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "archive/contaminated_frame/user_messages_only.txt"
     }
   ],
-  "input_tokens": 123579,
-  "output_tokens": 31353
+  "input_tokens": 6686,
+  "output_tokens": 15583
 }

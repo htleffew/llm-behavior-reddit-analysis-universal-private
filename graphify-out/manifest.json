@@ -18,5 +18,65 @@
     "mtime": 1779031229.7894232,
     "ast_hash": "9256b934607069f5f2bd583795797358",
     "semantic_hash": "9256b934607069f5f2bd583795797358"
+  },
+  ".claude/writing/CORE.md": {
+    "mtime": 1781538858.837786,
+    "ast_hash": "e9f8612d44e1ec3f1a4b4bf3842509cf",
+    "semantic_hash": "e9f8612d44e1ec3f1a4b4bf3842509cf"
+  },
+  "README.md": {
+    "mtime": 1782171444.4208374,
+    "ast_hash": "0594e6ef196fe8228a6b6b56eca67f96",
+    "semantic_hash": "0594e6ef196fe8228a6b6b56eca67f96"
+  },
+  "agentic_orchestration_protocol.md": {
+    "mtime": 1779222226.6043642,
+    "ast_hash": "84deb9f72bfbf5ce58a734af2a4f7d50",
+    "semantic_hash": "84deb9f72bfbf5ce58a734af2a4f7d50"
+  },
+  "archive/contaminated_frame/README.md": {
+    "mtime": 1779038857.2324996,
+    "ast_hash": "38fda62d2b0efdeb726ad93d01a87674",
+    "semantic_hash": "38fda62d2b0efdeb726ad93d01a87674"
+  },
+  "archive/contaminated_frame/conversation_transcript.txt": {
+    "mtime": 1779032348.7386363,
+    "ast_hash": "c7a8090331607d5332fc12ccb8d6fdb3",
+    "semantic_hash": "c7a8090331607d5332fc12ccb8d6fdb3"
+  },
+  "archive/contaminated_frame/ideation_conversation_export.md": {
+    "mtime": 1779032618.840053,
+    "ast_hash": "34b54b9759d266e2d647657f3d8fc347",
+    "semantic_hash": "34b54b9759d266e2d647657f3d8fc347"
+  },
+  "archive/contaminated_frame/resources_and_approaches.md": {
+    "mtime": 1779032035.927028,
+    "ast_hash": "e15421f2f4ab427df9e569b872b09203",
+    "semantic_hash": "e15421f2f4ab427df9e569b872b09203"
+  },
+  "archive/contaminated_frame/universal_pipeline_master_plan.md": {
+    "mtime": 1779031633.866648,
+    "ast_hash": "945c785bfc8c974a74d31af666db4536",
+    "semantic_hash": "945c785bfc8c974a74d31af666db4536"
+  },
+  "community_reported_llm_behavior_method.md": {
+    "mtime": 1782171444.4193344,
+    "ast_hash": "9c0679e0f51ce77a14c75f69066ae255",
+    "semantic_hash": "9c0679e0f51ce77a14c75f69066ae255"
+  },
+  "corpus_audit_2026-05-17.md": {
+    "mtime": 1782089503.4719217,
+    "ast_hash": "437d721d28fc21dd3c47b24634d060f0",
+    "semantic_hash": "437d721d28fc21dd3c47b24634d060f0"
+  },
+  "methods_library.md": {
+    "mtime": 1783385027.9931576,
+    "ast_hash": "e1213b5fff27ff23226fa00d4598e321",
+    "semantic_hash": "e1213b5fff27ff23226fa00d4598e321"
+  },
+  ".claude/writing/profiles/research.md": {
+    "mtime": 1781538858.8452954,
+    "ast_hash": "6ec4ae5be79f66d272cb76c2551bc41b",
+    "semantic_hash": "6ec4ae5be79f66d272cb76c2551bc41b"
   }
 }
