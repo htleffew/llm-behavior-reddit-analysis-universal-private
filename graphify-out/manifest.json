@@ -78,5 +78,30 @@
     "mtime": 1781538858.8452954,
     "ast_hash": "6ec4ae5be79f66d272cb76c2551bc41b",
     "semantic_hash": "6ec4ae5be79f66d272cb76c2551bc41b"
+  },
+  ".claude/writing/tools/banned_terms.txt": {
+    "mtime": 1782495232.7980516,
+    "ast_hash": "08e222ad505dbef6886ef0acee7d6da7",
+    "semantic_hash": "08e222ad505dbef6886ef0acee7d6da7"
+  },
+  ".github/public-allowlist.txt": {
+    "mtime": 1781629683.3564844,
+    "ast_hash": "963f86f255c82402866ece42e862c65f",
+    "semantic_hash": "963f86f255c82402866ece42e862c65f"
+  },
+  ".github/workflows/sync-public.yml": {
+    "mtime": 1782322335.4734695,
+    "ast_hash": "674f8af08fe7738034f13d62401f96ad",
+    "semantic_hash": "674f8af08fe7738034f13d62401f96ad"
+  },
+  "CLAUDE.md": {
+    "mtime": 1782089503.4719217,
+    "ast_hash": "769a4f14268e7f2536587e9f869d4a76",
+    "semantic_hash": "769a4f14268e7f2536587e9f869d4a76"
+  },
+  "archive/contaminated_frame/user_messages_only.txt": {
+    "mtime": 1779036075.6371453,
+    "ast_hash": "e071be47c49e5a24fd105a8c34ab0bc6",
+    "semantic_hash": "e071be47c49e5a24fd105a8c34ab0bc6"
   }
 }
